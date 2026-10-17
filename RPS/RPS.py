@@ -4,6 +4,9 @@ items = ("rock", "paper", "scissors")
 
 choices = random.choices(items)
 
+YourScore = 0
+BotScore = 0
+
 #Enable for Debugging(e7na 3eyal metnaka)
 #print(choices)
 
@@ -17,3 +20,5 @@ if ((yourchoice == "rock" and choices[0] == "scissors") or
     print("You won!")
 else:
     print("You lost!")
+
+
